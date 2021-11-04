@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Somoire Art Site</title>
+</head>
+<body>
+  <nav>
+      <div class="signin">
+        <img src="images/logo 4.jpg">
+      </div>
+
+    </nav>
+
+    <header>
+
+        <div class="wrapper">
+            <div class="title">
+                SignUp
+            </div>
+            <form action="signup.php" method="post">
+                <div class="input-field">
+                    <label>Email Address</label>
+                    <input type="text" class="input" name="email" required> 
+                </div>
+    
+    
+                <div class="input-field">
+                    <label>Phone Number</label>
+                    <input type="int" class="input"  name="phone" required> 
+                </div>
+                <div class="input-field">
+                    <label>County</label>
+                    <input type="text" class="input" name="county" required> 
+                </div>
+    
+                <div class="input-field">
+                    <label>Password</label>
+                    <input type="password" class="input" name="password" required> 
+                </div>
+    
+                <div class="input-field">
+                    <label>Confirm Password</label>
+                    <input type="password" class="input"  name="password" required> 
+                </div>
+    
+                <div class="input-field">
+                    <label>Gender</label>
+                    <div class="custom-select" required>
+                        <select>
+                            <option value="">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-field">
+                    <label>Category</label>
+                    <div class="custom-select" required>
+                        <select>
+                            <option value="">Select</option>
+                            <option value="painter">Painter</option>
+                            <option value="handcrafter">Handcrafter</option>
+                            <option value="Art-Designer">Art-Designer</option>
+                        </select>
+                    </div>
+                </div>
+            
+    
+            <a href="#"><button type="submit">Submit</button></a> 
+            </form>
+        </div>
+    
+      </header>
+
+  
+
+</body>
+</html>

@@ -1,0 +1,669 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html,body{
+    background: #ffff;
+    height: 100%;
+}
+
+nav{
+    width: 100%;
+    background: rgb(27, 32, 32);
+    height: 80px;
+    position: sticky;
+    
+}
+
+nav img{
+   
+    margin:0 10px;
+    height: 60px;
+    width: 200px;
+    padding-left: 45px;
+
+}
+
+.signin button{
+    float: right;
+    margin-right: 80px;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 10%;
+
+    
+}
+.signin a button {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(19, 3, 3);
+    font-weight: 600; 
+      
+}
+.signin button:hover{
+    transition: 0.5s;
+    background: rgb(218, 133, 5);
+    
+}
+
+
+.wrapper-page{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    background: url("images/images\ \(24\).jpeg");
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    
+
+}
+
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 50px;
+}
+.welcome-text h1{
+    text-align: center;
+    color: #3b1f02;
+    font-weight: bold;
+    font-size: 72px;
+    letter-spacing: 2px;
+    margin: 15%;
+}
+
+.welcome-text p{
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 5px;
+
+}
+
+section{
+    min-height: 100vh;
+    position: relative;
+}
+
+.section-container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+    padding-top: 100px;
+    
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 25%;
+    position: relative;
+}
+/*.image-section video{
+    width: auto;
+    height: auto;
+    
+}*/
+
+.content-section .title-top{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.content-section .content h3{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 20px;
+}
+
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: rgb(214, 209, 209);
+}
+
+.content-section .content .button{
+    margin-top: 50px;
+    
+
+}
+
+.content-section .content .button a{
+    background: #f44336;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    border-radius: 20px;
+}
+
+
+
+.content-section .content .button a:hover{
+    background-color: #573605;
+    color: aqua;
+}
+
+.content-section .social{
+    margin: 50px 0px;
+}
+
+.content-section .social{
+    padding: 0px 10px;
+}
+.content-section .social a{
+    font-size: 30px;
+    padding: 0px 10px;
+    text-decoration: none;
+    transition: 1.5ease;
+}
+
+.content-section .social a:hover{
+    color: #ec9c05;
+    transition: 2ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container, .wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+    
+    background-color: rgb(0,0,0,0.19);
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.container .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.container .text{
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container form .data, .input-field{
+    height: 35px;
+    width: 100%;
+    margin: 40px 0;
+
+}
+form .data label{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 800;
+}
+
+form .data input, .input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    background: transparent;
+}
+
+form .forget-password{
+    margin: 50px 0;
+}
+form .forget-password a{
+    
+    color: #0e03aa;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+form .forget-password a:hover{
+    text-decoration: underline;
+    color:blueviolet
+}
+
+form .submit{
+    margin: 60px 0;
+    height: 45px;
+    width: 100%;
+    position: relative;
+
+    
+}
+
+form .submit  button{
+    height: 100%;   
+    width: 100%;
+    background:rgb(202, 98, 98);
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 18px;
+}
+
+
+
+form .submit  button:hover{
+transition:  0.3s;
+color: #ffffff;
+background: rgb(10, 101, 143);
+font-weight: bold;
+
+}
+
+
+form .signup-link{
+    text-align: center;
+    color: rgb(32, 19, 3);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+form .signup-link a{
+    color: #0986ec;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+form .signup-link a:hover{
+    text-decoration: underline;
+    color: #fff;
+    background: #000;
+}
+
+.wrapper{
+    background:rgb(0, 0, 0, 0.19 );
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    box-sizing: 0 0 8px rgba(0,0,0.1);
+    margin: 0px;
+    border-radius: 15px;
+}
+
+.wrapper a button{
+    height: 50px;   
+    background:rgb(202, 98, 98);
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: bold;
+}
+
+.wrapper a button:hover{
+    transition:  0.3s;
+    color: rgb(10, 1, 10);
+    background: rgb(10, 101, 143);
+    color: #ffffff;
+}
+.input-field label
+{
+    font-weight: 600;
+    color: #fff;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display:inline-block;
+    padding:30px;
+    
+    
+}
+nav ul li a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+nav ul li .home::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin:auto;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #ffffff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#check{
+    display: none;
+
+}
+
+/*gallary section*/
+
+.gallary{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    background: rgb(0, 0, 0, 0.09);
+    
+}
+
+.gallary .title{
+    margin-top: 20px;
+}
+.gallary .title h3{
+    font-size: 36px;
+    color: rgb(218, 133, 5);
+}
+
+.gallary-container{
+    width: 85%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.gallary-container{
+    flex-basis: 30%;
+}
+
+
+
+
+footer{
+    background: #061620;
+    color: #ffffff;
+    height: auto;
+    margin: 10px 0;
+    position: relative;
+    bottom: 0;
+    border: 2px solid blue;
+    border-top-left-radius: 150px;
+    padding: 100px 0 30px;
+    
+  
+}
+
+.footer{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 25px;
+    
+}
+.logo{
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 30px;
+    position: relative;
+}
+.col p{
+    font-size: 16px;
+}
+
+.col li{
+    list-style: none;
+    font-size: 18px;
+}
+
+.email-id{
+    width: fit-content;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+ .col  li{
+    list-style: none;
+    margin-bottom: 12px;
+    width: fit-content;
+}
+.col  li a{
+    text-decoration: none;
+    color: #999;
+    width: fit-content;
+}
+
+ .contact-us{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+.contact-us .far{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.contact-us input{
+    width: 100%;
+    background: transparent;
+    color: #999;
+    border: 0;
+    outline: none;
+
+}
+.contact-us button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.contact-us button .fas{
+    font-size: 20px;
+    color: #ccc;
+}
+.social-icons .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+footer .footer-bottom{
+    background: #999;
+    color: #7e4c02;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 10px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+/*home section*/
+
+.sidebar{
+
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #052f3a;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.search-box{
+    background: #edd6f1;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    float: right;  
+}
+
+ .sidebar  .logo_name{
+    font-size: 40px;
+    color: rgb(218, 133, 5);
+}
+
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    float: right;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .section-container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    }
+
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .image-section{
+        float: none;
+        width: 100%;
+
+    }
+  .image-section img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+    .content-section .title-top{
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .content-section .content .button{
+        text-align: center;
+    }
+
+    .content-section .content .button a{
+        padding: 9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+    }
+    
+    .content-section .social a{
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
